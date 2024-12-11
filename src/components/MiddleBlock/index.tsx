@@ -29,7 +29,7 @@ const MiddleBlock = ({ title, content, button, id, link, t }: MiddleBlockProps) 
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
               {link && (
-                <a href={link}>
+                <a href={link} target="_blank">
                   Download File
                 </a>
               )}
