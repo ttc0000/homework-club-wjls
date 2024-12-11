@@ -1,0 +1,13 @@
+{
+  "title": "Sign-Up",
+  "text": "以下のリンクより、１月１８日のクラブ活動に参加したい方は登録して下さい。",
+  "button": [
+    {
+      "title": "Explore"
+    },
+    {
+      "title": "Learn more",
+      "color": "#fff"
+    }
+  ]
+}
