@@ -1,27 +1,29 @@
 {
   "files": {
     "main.css": "/homework-club-wjls/static/css/main.18dfb25f.css",
-    "main.js": "/homework-club-wjls/static/js/main.4e25d7b2.js",
-    "static/js/612.b9f9b2a1.chunk.js": "/homework-club-wjls/static/js/612.b9f9b2a1.chunk.js",
+    "main.js": "/homework-club-wjls/static/js/main.a327a75d.js",
+    "static/js/235.ae4255d8.chunk.js": "/homework-club-wjls/static/js/235.ae4255d8.chunk.js",
+    "static/js/502.9adf086b.chunk.js": "/homework-club-wjls/static/js/502.9adf086b.chunk.js",
     "static/js/609.3778a488.chunk.js": "/homework-club-wjls/static/js/609.3778a488.chunk.js",
-    "static/js/281.ac31685a.chunk.js": "/homework-club-wjls/static/js/281.ac31685a.chunk.js",
-    "static/js/722.186e3727.chunk.js": "/homework-club-wjls/static/js/722.186e3727.chunk.js",
-    "static/js/290.b950de7a.chunk.js": "/homework-club-wjls/static/js/290.b950de7a.chunk.js",
+    "static/js/281.d77085e3.chunk.js": "/homework-club-wjls/static/js/281.d77085e3.chunk.js",
+    "static/js/722.b743c318.chunk.js": "/homework-club-wjls/static/js/722.b743c318.chunk.js",
+    "static/js/290.eeaf1ca5.chunk.js": "/homework-club-wjls/static/js/290.eeaf1ca5.chunk.js",
     "static/js/758.df18b2ed.chunk.js": "/homework-club-wjls/static/js/758.df18b2ed.chunk.js",
     "static/js/691.d7e1f965.chunk.js": "/homework-club-wjls/static/js/691.d7e1f965.chunk.js",
     "index.html": "/homework-club-wjls/index.html",
     "main.18dfb25f.css.map": "/homework-club-wjls/static/css/main.18dfb25f.css.map",
-    "main.4e25d7b2.js.map": "/homework-club-wjls/static/js/main.4e25d7b2.js.map",
-    "612.b9f9b2a1.chunk.js.map": "/homework-club-wjls/static/js/612.b9f9b2a1.chunk.js.map",
+    "main.a327a75d.js.map": "/homework-club-wjls/static/js/main.a327a75d.js.map",
+    "235.ae4255d8.chunk.js.map": "/homework-club-wjls/static/js/235.ae4255d8.chunk.js.map",
+    "502.9adf086b.chunk.js.map": "/homework-club-wjls/static/js/502.9adf086b.chunk.js.map",
     "609.3778a488.chunk.js.map": "/homework-club-wjls/static/js/609.3778a488.chunk.js.map",
-    "281.ac31685a.chunk.js.map": "/homework-club-wjls/static/js/281.ac31685a.chunk.js.map",
-    "722.186e3727.chunk.js.map": "/homework-club-wjls/static/js/722.186e3727.chunk.js.map",
-    "290.b950de7a.chunk.js.map": "/homework-club-wjls/static/js/290.b950de7a.chunk.js.map",
+    "281.d77085e3.chunk.js.map": "/homework-club-wjls/static/js/281.d77085e3.chunk.js.map",
+    "722.b743c318.chunk.js.map": "/homework-club-wjls/static/js/722.b743c318.chunk.js.map",
+    "290.eeaf1ca5.chunk.js.map": "/homework-club-wjls/static/js/290.eeaf1ca5.chunk.js.map",
     "758.df18b2ed.chunk.js.map": "/homework-club-wjls/static/js/758.df18b2ed.chunk.js.map",
     "691.d7e1f965.chunk.js.map": "/homework-club-wjls/static/js/691.d7e1f965.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18dfb25f.css",
-    "static/js/main.4e25d7b2.js"
+    "static/js/main.a327a75d.js"
   ]
 }
