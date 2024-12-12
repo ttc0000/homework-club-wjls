@@ -1,6 +1,8 @@
 {
   "title": "Sign-Up",
-  "text": "以下のリンクより、１月１８日のクラブ活動に参加したい方は登録して下さい。",
+  "text": "１月１８日のクラブ活動に参加したい方は、以下のリンクより登録して下さい。",
+  "link": "https://www.google.com",
+  "linkDescription": "Sign-Up Form",
   "button": [
     {
       "title": "Explore"

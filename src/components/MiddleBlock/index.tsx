@@ -3,6 +3,24 @@ import { withTranslation, TFunction } from "react-i18next";
 import { Slide } from "react-awesome-reveal";
 import { Button } from "../../common/Button";
 import { MiddleBlockSection, Content, ContentWrapper } from "./styles";
+import {
+  FooterSection,
+  Title,
+  NavLink,
+  Extra,
+  LogoContainer,
+  Para,
+  Large,
+  Chat,
+  Empty,
+  FooterContainer,
+  Language,
+  Label,
+  LanguageSwitch,
+  LanguageSwitchContainer,
+} from "../Footer/styles";
+
+import { CustomASmall, Span } from "./styles";
 
 interface MiddleBlockProps {
   title: string;
@@ -11,9 +29,18 @@ interface MiddleBlockProps {
   t: TFunction;
   id: string;
   link: string;
+  linkDescription: string;
 }
 
-const MiddleBlock = ({ title, content, button, id, link, t }: MiddleBlockProps) => {
+const MiddleBlock = ({
+  title,
+  content,
+  button,
+  id,
+  link,
+  linkDescription,
+  t,
+}: MiddleBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
     element.scrollIntoView({
@@ -30,7 +57,7 @@ const MiddleBlock = ({ title, content, button, id, link, t }: MiddleBlockProps) 
               <Content>{t(content)}</Content>
               {link && (
                 <a href={link} target="_blank">
-                  Download File
+                  <Span>{linkDescription}</Span>
                 </a>
               )}
               {button && (

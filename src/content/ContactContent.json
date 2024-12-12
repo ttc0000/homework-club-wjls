@@ -1,4 +1,6 @@
 {
-    "title": "Contact form",
-    "text": "質問等ございましたら、右のフォームよりお問い合わせください"
+    "title": "Contact",
+    "text": "質問等ございましたら、以下のメールアドレスまでお問い合わせください。\n 保護者代表　樋川浩之",
+    "link": "mailto:hirohikawa@gmail.com",
+    "linkDescription": "hirohikawa@gmail.com"
 }

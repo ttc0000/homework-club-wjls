@@ -1,6 +1,8 @@
 {
   "title": "WJLS Homework Club",
   "text": "WJLS 宿題クラブの活動内容は、小学生を対象に、日本語学校の宿題を中高生のボランティアが手伝う、というものです。教える側の中高生と教えられる側の小学生の間での繋がりを広げ、なおかつ小学生の宿題また理解の促進、中高生にとっては教えることを通して自分自身の学習を振り返ること、またボランティア精神に基づきより良い学校作りに貢献することです。",
+  "link": "./pdf/Homework Club Intro.pdf",
+  "linkDescription": "Homework Club Intro.pdf",
   "button": [
     {
       "title": "Explore"

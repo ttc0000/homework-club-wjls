@@ -31,14 +31,16 @@ const Home = () => {
         content={IntroContent.text}
         button=""
         id="about"
-        link="./pdf/Homework Club Intro.pdf"
+        link={IntroContent.link}
+        linkDescription={IntroContent.linkDescription}
       />
       <MiddleBlock
         title={SignUpContent.title}
         content={SignUpContent.text}
         button=""
         id="sign-up"
-        link=""
+        link={SignUpContent.link}
+        linkDescription={SignUpContent.linkDescription}
       />
       {/* <ContentBlock
         direction="left"
@@ -62,11 +64,19 @@ const Home = () => {
         icon=""
         id="product"
       /> */}
-      <Contact
+      <MiddleBlock
+        title={ContactContent.title}
+        content={ContactContent.text}
+        button=""
+        id="contact"
+        link={ContactContent.link}
+        linkDescription={ContactContent.linkDescription}
+      />
+      {/* <Contact
         title={ContactContent.title}
         content={ContactContent.text}
         id="contact"
-      />
+      /> */}
     </Container>
   );
 };
