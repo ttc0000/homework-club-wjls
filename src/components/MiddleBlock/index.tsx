@@ -24,7 +24,7 @@ import { CustomASmall, Span } from "./styles";
 
 interface MiddleBlockProps {
   title: string;
-  content: string;
+  content: any;
   button: string;
   t: TFunction;
   id: string;
