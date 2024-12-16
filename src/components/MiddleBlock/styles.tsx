@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MiddleBlockSection = styled("section")`
   position: relative;
-  padding: 7.5rem 0 3rem;
+  padding: 3.5rem 0 3rem;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -14,6 +14,8 @@ export const MiddleBlockSection = styled("section")`
 
 export const Content = styled("p")`
   padding: 0.75rem 0 0.75rem;
+  margin-bottom: 0.0rem;
+  margin-top: 0.5rem;
 `;
 
 export const ContentWrapper = styled("div")`
@@ -36,7 +38,8 @@ export const CustomASmall = styled("a")`
 `;
 
 export const Span = styled("span")`
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 

@@ -1,8 +1,17 @@
 {
   "title": "Sign-Up",
-  "text": "１月１８日のクラブ活動に参加をご希望の方は、以下のリンクから１月９日までにご登録ください。定員に限りがありますので、先着順での受付となります。",
-  "link": "https://www.google.com",
-  "linkDescription": "Sign-Up Form",
+  "contents": [
+    {
+      "text": "【 中・高校生用 】１月１８日のクラブ活動にボランティアとして参加を希望の中・高校生は、以下のリンクから１月７日までにご登録ください。定員に限りがありますので、先着順での受付となります。",
+      "link": "https://www.google.com",
+      "linkDescription": "Sign-Up Form　中・高校生用"
+    },
+    {
+      "text": "【 小学生用 】１月１８日のクラブ活動に参加を希望の小学生は、一月の授業開始後に配信されるSign-up Formで登録をお願いします。",
+      "link": "",
+      "linkDescription": "Sign-Up Form　小学生用"
+    }
+  ],
   "button": [
     {
       "title": "Explore"

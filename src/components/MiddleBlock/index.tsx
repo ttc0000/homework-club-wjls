@@ -24,7 +24,7 @@ import { CustomASmall, Span } from "./styles";
 
 interface MiddleBlockProps {
   title: string;
-  content: any;
+  contents: any;
   button: string;
   t: TFunction;
   id: string;
@@ -34,7 +34,7 @@ interface MiddleBlockProps {
 
 const MiddleBlock = ({
   title,
-  content,
+  contents,
   button,
   id,
   link,
@@ -54,12 +54,24 @@ const MiddleBlock = ({
           <ContentWrapper>
             <Col lg={24} md={24} sm={24} xs={24}>
               <h6>{t(title)}</h6>
-              <Content>{t(content)}</Content>
-              {link && (
-                <a href={link} target="_blank">
-                  <Span>{linkDescription}</Span>
-                </a>
-              )}
+              {contents.map((content: any) => {
+                // return <Content>{t(content.text)}</Content>;
+
+                {
+                  if (content.link) {
+                    return (
+                      <>
+                        <Content>{t(content.text)}</Content>
+                        <CustomASmall href={content.link} target="_blank">
+                          <Span>{content.linkDescription}</Span>
+                        </CustomASmall>
+                      </>
+                    );
+                  } else {
+                    return <Content>{t(content.text)}</Content>;
+                  }
+                }
+              })}
               {button && (
                 <Button name="submit" onClick={() => scrollTo("mission")}>
                   {t(button)}

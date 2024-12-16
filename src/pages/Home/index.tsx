@@ -28,19 +28,19 @@ const Home = () => {
       /> */}
       <MiddleBlock
         title={IntroContent.title}
-        content={IntroContent.text}
+        contents={IntroContent.contents}
         button=""
         id="about"
-        link={IntroContent.link}
-        linkDescription={IntroContent.linkDescription}
+        link=""
+        linkDescription=""
       />
       <MiddleBlock
         title={SignUpContent.title}
-        content={SignUpContent.text}
+        contents={SignUpContent.contents}
         button=""
         id="sign-up"
-        link={SignUpContent.link}
-        linkDescription={SignUpContent.linkDescription}
+        link=""
+        linkDescription=""
       />
       {/* <ContentBlock
         direction="left"
@@ -66,11 +66,11 @@ const Home = () => {
       /> */}
       <MiddleBlock
         title={ContactContent.title}
-        content={ContactContent.text}
+        contents={ContactContent.contents}
         button=""
         id="contact"
-        link={ContactContent.link}
-        linkDescription={ContactContent.linkDescription}
+        link=""
+        linkDescription=""
       />
       {/* <Contact
         title={ContactContent.title}
