@@ -54,23 +54,37 @@ const MiddleBlock = ({
           <ContentWrapper>
             <Col lg={24} md={24} sm={24} xs={24}>
               <h6>{t(title)}</h6>
-              {contents.map((content: any) => {
-                // return <Content>{t(content.text)}</Content>;
-
-                {
-                  if (content.link) {
-                    return (
-                      <>
-                        <Content>{t(content.text)}</Content>
-                        <CustomASmall href={content.link} target="_blank">
-                          <Span>{content.linkDescription}</Span>
-                        </CustomASmall>
-                      </>
-                    );
-                  } else {
-                    return <Content>{t(content.text)}</Content>;
-                  }
+              {contents.map((content: any, idx: number) => {
+                if (content.table) {
+                  const { headers, rows } = content.table;
+                  return (
+                    <div key={idx} style={{ overflowX: "auto", margin: "1rem 0" }}>
+                      <table style={{ borderCollapse: "collapse" }}>
+                        <tbody>
+                          {headers.map((header: string, hi: number) => (
+                            <tr key={hi}>
+                              <th style={{ border: "1px solid #ccc", padding: "6px 12px", textAlign: "center", whiteSpace: "nowrap" }}>{header}</th>
+                              {rows.map((row: string[], ri: number) => (
+                                <td key={ri} style={{ border: "1px solid #ccc", padding: "6px 12px", textAlign: "center" }}>{row[hi]}</td>
+                              ))}
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  );
                 }
+                if (content.link) {
+                  return (
+                    <span key={idx}>
+                      <Content>{t(content.text)}</Content>
+                      <CustomASmall href={content.link} target="_blank">
+                        <Span>{content.linkDescription}</Span>
+                      </CustomASmall>
+                    </span>
+                  );
+                }
+                return <Content key={idx}>{t(content.text)}</Content>;
               })}
               {button && (
                 <Button name="submit" onClick={() => scrollTo("mission")}>

@@ -2,19 +2,34 @@
   "title": "Register",
   "contents": [
     {
-      "text": "【 中・高校生 】初めてボランティアとして参加希望の方は、以下のリンクより登録、また誓約書にサインをして当日に持参してください。",
-      "link": "https://forms.gle/pUVHaELoHAkvkZPe9",
+      "text": "【 中・高校生 】初めてボランティアとして参加希望の方は、以下のリンクより登録してください。また以下の誓約書・免責書にサインをして当日に持参してください。",
+      "link": "https://forms.gle/jDWxK8UqhNfwmAHQA",
       "linkDescription": "Registration Form　中・高校生用"
     },
     {
-      "text": "【 小学生 】初めて参加希望の小学１年生から６年生の保護者の方は、以下のリンクより登録、また誓約書にサインをして当日に持参してくだ。",
-      "link": "https://forms.gle/t39mDRFv3SiRPhAB9",
+      "text": "",
+      "link": "/pdf/中高生｜宿題クラブ誓約書.pdf",
+      "linkDescription": "誓約書（中・高校生用）"
+    },
+    {
+      "text": "",
+      "link": "/pdf/免責書宿題クラブ.pdf",
+      "linkDescription": "免責書（宿題クラブ）"
+    },
+    {
+      "text": "【 小学生 】初めて参加希望の小学１年生から６年生の保護者の方は、以下のリンクより登録してください。また以下の誓約書・免責書にサインをして当日に持参してくだ。",
+      "link": "https://forms.gle/HiD5YPBWphAHZ4AE9",
       "linkDescription": "Registration Form　小学生用"
     },
     {
-      "text": "すでに登録済の方は、参加希望の日に自由に参加してください。",
-      "link": "",
-      "linkDescription": ""
+      "text": "",
+      "link": "/pdf/小学生｜宿題クラブ誓約書.pdf",
+      "linkDescription": "誓約書（小学生用）"
+    },
+    {
+      "text": "",
+      "link": "/pdf/免責書宿題クラブ.pdf",
+      "linkDescription": "免責書（宿題クラブ）"
     }
   ],
   "button": [
